@@ -4,8 +4,8 @@ pipeline {
         cron('H/2 * * * 1-5')
     }
     tools {
-        maven 'Maven3'
-        jdk 'java8'
+        maven 'mvn'
+        jdk 'jdk8'
       
     }
     stages {
